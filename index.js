@@ -9,7 +9,7 @@ var pi = 3.14159;
 var moveinterval = 2; // 2 second movement interval
 var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
 
-function createBot() {
+// function createBot() {
   var bot = mineflayer.createBot({
     host: "kanjuedbadangsecn5.aternos.me",
     port: "51992",
@@ -73,7 +73,23 @@ function createBot() {
   function reconnectBot() {
     setTimeout(createBot, 5000); // Tunggu 5 detik sebelum mencoba kembali
   }
-}
+// }
 
 // Jalankan fungsi untuk membuat bot
-createBot()
+// createBot()
+
+const port = 3000;
+
+const express = require('express')
+const app = express()
+
+app.get('/', (req, res) => {
+
+    res.send(`<h1>CUMAN DASBOARD BIASA</h1>`)
+});
+
+
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`);
+    console.log('MADE BY HEALER')
+})

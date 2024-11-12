@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^4.21.1",
     "mineflayer": "^4.23.0"
   }
 }
