@@ -1,7 +1,7 @@
 const mineflayer = require('mineflayer')
 const fs = require('fs');
-let rawdata = fs.readFileSync('config.json');
-let data = JSON.parse(rawdata);
+// let rawdata = fs.readFileSync('config.json');
+// let data = JSON.parse(rawdata);
 var lasttime = -1;
 var moving = 0;
 var connected = 0;
@@ -10,13 +10,13 @@ var lastaction;
 var pi = 3.14159;
 var moveinterval = 2; // 2 second movement interval
 var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
-var host = data["ip"];
-var port = data["port"];
-var username = data["name"]
+// var host = data["ip"];
+// var port = data["port"];
+// var username = data["name"]
 var bot = mineflayer.createBot({
-  host: host,
-  port: port,
-  username: username,
+  host: "kanjuedbadangsecn5.aternos.me",
+  port: "51992",
+  username: "budak_ega",
   password : 'tai',
   version : '1.21.1',
   
