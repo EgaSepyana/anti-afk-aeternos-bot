@@ -75,6 +75,9 @@ var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
   }
 // }
 
+
+
+
 // Jalankan fungsi untuk membuat bot
 // createBot()
 
