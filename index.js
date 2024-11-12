@@ -81,18 +81,18 @@ var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
 // Jalankan fungsi untuk membuat bot
 // createBot()
 
-// const port = 3000;
+const port = 3000;
 
-// const express = require('express')
-// const app = express()
+const express = require('express')
+const app = express()
 
-// app.get('/', (req, res) => {
+app.get('/', (req, res) => {
 
-//     res.send(`<h1>CUMAN DASBOARD BIASA</h1>`)
-// });
+    res.send(`<h1>CUMAN DASBOARD BIASA</h1>`)
+});
 
 
-// app.listen(port, () => {
-//     console.log(`Example app listening at http://localhost:${port}`);
-//     console.log('MADE BY HEALER')
-// })
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`);
+    console.log('MADE BY HEALER')
+})
