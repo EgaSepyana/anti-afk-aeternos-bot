@@ -18,7 +18,7 @@ var bot = mineflayer.createBot({
   port: port,
   username: username,
   password : 'tai',
-  version : '1.20.6',
+  version : '1.21.1',
   
 });
 function getRandomArbitrary(min, max) {
